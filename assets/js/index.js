@@ -79,7 +79,7 @@ const reloadTable = () => {
   animalesTemplate.innerHTML = "";
   const dataModal = document.getElementById("modal-body");
   dataModal.innerHTML = "";
-  listadoAnimales.forEach((p, i) => {
+  listadoAnimales.forEach((p,i) => {
     animalesTemplate.innerHTML += `
         <div class="px-3 pb-2 participante" data-animal="${p.getNombre()}">
             <div class="card" bg-dark" style="border:none">
